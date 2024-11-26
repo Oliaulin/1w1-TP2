@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.global {
+    min-height: 100vh;
+    background-color: rgb(141, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/*Formulaire burger///////////////////////////////////////////////////////////////////////////////*/
+#burger {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+#burger:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #00f;
+    background-color: #710da3aa;
+    color: #fff;
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    
+    transition: transform .25s;
+    transform: translateX(250px); 
+    width: 100px;
+    height: 300px;
+    padding: 10px;
+}
+
+#menu a {
+    color: #fff;
+    display: block;
+}
+
+#menu a:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+#chk-burger {
+    display: none;
+    width: 200px;
+    border: 2px solid #f00;
+    padding: 10px;
+}
+
+#chk-burger:checked + #menu {
+    /* display: block; /*menu apparait*/ 
+    transform: translateX(0); /* le menu reprend sa position naturelle donc devient visible */
+}
+/*FinFormulaire/////////////////////////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////////Acceuil*/
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(248, 149, 0);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    margin: 15px;
+}
+
+.soustitre {
+    margin-top: 30px;
+}
+
+.interieur {
+    background-color: rgba(0, 0, 0, .1);
+    width: 910px;
+}
+
+.img-entete {
+    display: flex;
+    justify-content: center;
+}
+
+.img-lego-guy {
+    width: 400px;
+}
+
+.imggalerie {
+    width: 250px;
+    border: solid 5px rgb(0, 0, 93);
+}
+
+.grphoto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 10px;
+}
+
+.textes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.colonne-un, .colonne-deux {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.texte-un, .texte-deux, .texte-trois, .texte-quatre {
+    flex-shrink: 2;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 5px;
+}
+
+.themes, .evolution {
+    margin-top: 47px;
+    margin-bottom: 20px;
+    width: 225px;
+}
