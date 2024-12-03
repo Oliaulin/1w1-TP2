@@ -167,3 +167,53 @@ figure:hover {
     margin-bottom: 20px;
     width: 225px;
 }
+
+.video {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 175px;
+}
+
+.tableau-de-couleurs{
+    border-collapse: collapse;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border : 1px solid #aaa;
+    text-align: center; 
+}
+
+.tableau-de-couleurs td,
+.tableau-de-couleurs th{
+    border: 1px solid #aaa;
+    padding: 7px;
+}
+/* 
+even : pair
+odd : impair
+*/
+.tabtableau-de-couleursleau th {
+    color: #d6cbff;
+    font-weight: bold;
+}
+
+.tableau-de-couleurs caption {
+    font-size: 2rem;
+    color: rgb(8, 40, 63);
+    font-weight : bold;
+    border : 1px solid #aaa;
+    padding : 10px;
+}
+
+.tableau-de-couleurs thead th {
+    padding : 20px 5px;
+}
+
+.tableau-de-couleurs tbody{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+.tableau-de-couleurs tfoot{
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: aquamarine;
+}
