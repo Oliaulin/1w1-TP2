@@ -148,7 +148,7 @@ figure:hover {
     justify-content: space-around;
 }
 
-.colonne-un, .colonne-deux {
+.colonne-un, .colonne-deux, .colonne-img {
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
