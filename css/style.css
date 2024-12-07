@@ -79,6 +79,7 @@ h2 {
     display: flex;
     justify-content: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
 }
 
 h3 {
@@ -216,4 +217,30 @@ odd : impair
 .tableau-de-couleurs tfoot{
 font-family: Georgia, 'Times New Roman', Times, serif;
 background-color: aquamarine;
+}
+
+.liste ul li a {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.reseaux:hover {
+    transform: none;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.colonneinfo {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
 }
